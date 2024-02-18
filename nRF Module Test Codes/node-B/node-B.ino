@@ -31,7 +31,7 @@ void loop() {
     radio.write( &msg_to_A, sizeof(msg_to_A) );             
     radio.startListening();                                     
     
-    Serial.print(F("Got message '"));
+    Serial.print(F("Got message '"));0
     Serial.print(msg_from_A);
     Serial.print(F("', Sent response '"));
     Serial.print(msg_to_A);
