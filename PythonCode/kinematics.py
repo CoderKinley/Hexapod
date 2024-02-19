@@ -9,7 +9,6 @@ class Robot2DOF:
         self.l2 = l2
         self.terminating_flag = False
     
-    # this will calculate the forward kinematics in 2DOF planer robot
     def convert2rad(self, val):
         radian = np.deg2rad(val)
         return radian
@@ -30,6 +29,7 @@ class Robot2DOF:
 
         return calculated_theta1, calculated_theta2, x1, y1
 
+    # this will calculate the forward kinematics in 2DOF planer robot
     def forward_kinematics(self, l1, l2, theta1, theta2):
         x1 = l1 * np.cos(self.convert2rad(theta1))
         y1 = l1 * np.sin(self.convert2rad(theta1))
