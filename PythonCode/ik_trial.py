@@ -8,7 +8,7 @@ def inverse_kinematics():
     a2 = 8
     a3 = 16
 
-    theta1 = np.degrees(np.arctan(y/x))
+    theta1 = np.degrees(np.arctan(y/x)) 
     a4 = np.sqrt((pow((x-a1),2))+(pow(a3,2)))
     phi3 = np.arccos(((pow(a2,2))+(pow(a4,2))-(pow(a3,2)))/(2*a2*a4))
     phi2 = np.arcsin(z/a4)
