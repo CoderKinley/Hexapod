@@ -8,14 +8,14 @@ float r2 = 8;
 float r3 = 16;
 
 // Joint angles
-float theta1 = 38.66 * PI / 180.0; // Convert degrees to radians
-float theta2 = 40.65 * PI / 180.0; // Convert degrees to radians
-float theta3 = -41.41 * PI / 180.0; // Convert degrees to radians
+float theta1 = 38.66 * PI / 180.0; 
+float theta2 = 40.65 * PI / 180.0;
+float theta3 = -41.41 * PI / 180.0; 
 
 // Angle between z-axes
-float alpha1 = 90 * PI / 180.0; // Convert degrees to radians
-float alpha2 = 0 * PI / 180.0; // Convert degrees to radians
-float alpha3 = 0 * PI / 180.0; // Convert degrees to radians
+float alpha1 = 90 * PI / 180.0;
+float alpha2 = 0 * PI / 180.0; 
+float alpha3 = 0 * PI / 180.0;
 
 void setup() {
   Serial.begin(9600);
